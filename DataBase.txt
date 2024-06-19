@@ -1,0 +1,11 @@
+﻿CREATE DATABASE ContactBookDB;
+USE ContactBookDB;
+
+CREATE TABLE Contacts (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    PhoneNumber VARCHAR(15),
+    EmailAddress VARCHAR(100),
+    BirthDate DATE
+);

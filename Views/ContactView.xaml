@@ -1,0 +1,66 @@
+﻿<Window x:Class="ContactBookApp.Views.ContactView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:ContactBookApp.ViewModels"
+        Title="Contact Book" Height="500" Width="670">
+    <Window.DataContext>
+        <vm:ContactViewModel />
+    </Window.DataContext>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Input Fields -->
+        <TextBlock Text="First Name:" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Margin="0,0,5,5"/>
+        <TextBox Text="{Binding TempContact.FirstName}" Grid.Row="0" Grid.Column="1" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Last Name:" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Margin="0,0,5,5"/>
+        <TextBox Text="{Binding TempContact.LastName}" Grid.Row="1" Grid.Column="1" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Phone Number:" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0" Margin="0,0,5,5"/>
+        <TextBox Text="{Binding TempContact.PhoneNumber}" Grid.Row="2" Grid.Column="1" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Email Address:" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0" Margin="0,0,5,5"/>
+        <TextBox Text="{Binding TempContact.EmailAddress}" Grid.Row="3" Grid.Column="1" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Birth Date:" VerticalAlignment="Center" Grid.Row="4" Grid.Column="0" Margin="0,0,5,5"/>
+        <DatePicker SelectedDate="{Binding TempContact.BirthDate}" Grid.Row="4" Grid.Column="1" Margin="0,0,0,5"/>
+
+        <!-- Buttons -->
+        <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.ColumnSpan="2" Margin="0,10,0,10" HorizontalAlignment="Left">
+            <Button Content="Add Contact" Command="{Binding AddContactCommand}" Width="100" Margin="0,0,10,0"/>
+            <Button Content="Edit Contact" Command="{Binding EditContactCommand}" Width="100" Margin="0,0,10,0"/>
+            <Button Content="Delete Contact" Command="{Binding DeleteContactCommand}" Width="100" Margin="0,0,10,0"/>
+        </StackPanel>
+
+        <!-- Search -->
+        <TextBox Text="{Binding SearchText}" Grid.Row="5" Grid.Column="1" Height="30" HorizontalAlignment="Left" Margin="384,5,0,5" Width="154"/>
+        <Button Content="Search" Command="{Binding SearchCommand}" Grid.Row="5" Grid.Column="1" Width="100" Margin="247,10,215,10"/>
+
+        <!-- Contact List -->
+        <ListView ItemsSource="{Binding Contacts}" SelectedItem="{Binding SelectedContact}" Grid.Row="6" Grid.ColumnSpan="2" Margin="0,10,0,0" SelectionChanged="ListView_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="First Name" DisplayMemberBinding="{Binding FirstName}" Width="100"/>
+                    <GridViewColumn Header="Last Name" DisplayMemberBinding="{Binding LastName}" Width="100"/>
+                    <GridViewColumn Header="Phone" DisplayMemberBinding="{Binding PhoneNumber}" Width="100"/>
+                    <GridViewColumn Header="Email" DisplayMemberBinding="{Binding EmailAddress}" Width="150"/>
+                    <GridViewColumn Header="Birth Date" DisplayMemberBinding="{Binding BirthDate, StringFormat=d}" Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
