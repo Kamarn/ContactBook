@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE03BBBE-17BD-4EB7-94DD-028BDDFBD3D8}|ContactBook.csproj|c:\\users\\v-kakhundov\\desktop\\apps\\code\\dotnet\\contactbook\\models\\contactdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE03BBBE-17BD-4EB7-94DD-028BDDFBD3D8}|ContactBook.csproj|solutionrelative:models\\contactdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE03BBBE-17BD-4EB7-94DD-028BDDFBD3D8}|ContactBook.csproj|c:\\users\\v-kakhundov\\desktop\\apps\\code\\dotnet\\contactbook\\viewmodels\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE03BBBE-17BD-4EB7-94DD-028BDDFBD3D8}|ContactBook.csproj|solutionrelative:viewmodels\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE03BBBE-17BD-4EB7-94DD-028BDDFBD3D8}|ContactBook.csproj|c:\\users\\v-kakhundov\\desktop\\apps\\code\\dotnet\\contactbook\\views\\contactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE03BBBE-17BD-4EB7-94DD-028BDDFBD3D8}|ContactBook.csproj|solutionrelative:views\\contactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE03BBBE-17BD-4EB7-94DD-028BDDFBD3D8}|ContactBook.csproj|c:\\users\\v-kakhundov\\desktop\\apps\\code\\dotnet\\contactbook\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE03BBBE-17BD-4EB7-94DD-028BDDFBD3D8}|ContactBook.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactView.xaml",
+              "DocumentMoniker": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\Views\\ContactView.xaml",
+              "RelativeDocumentMoniker": "Views\\ContactView.xaml",
+              "ToolTip": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\Views\\ContactView.xaml",
+              "RelativeToolTip": "Views\\ContactView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-20T09:10:41.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\ViewModels\\ContactViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ContactViewModel.cs",
+              "ToolTip": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\ViewModels\\ContactViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ContactViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T09:08:29.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\Models\\ContactDatabase.cs",
+              "RelativeDocumentMoniker": "Models\\ContactDatabase.cs",
+              "ToolTip": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\Models\\ContactDatabase.cs",
+              "RelativeToolTip": "Models\\ContactDatabase.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T09:08:26.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\Models\\Contact.cs",
+              "RelativeToolTip": "Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T09:08:24.221Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1144,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

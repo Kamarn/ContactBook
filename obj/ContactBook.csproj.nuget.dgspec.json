@@ -1,24 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ders\\Vizja\\DotNET\\ContactBook\\ContactBook.csproj": {}
+    "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\ContactBook.csproj": {}
   },
   "projects": {
-    "D:\\ders\\Vizja\\DotNET\\ContactBook\\ContactBook.csproj": {
+    "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\ContactBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ders\\Vizja\\DotNET\\ContactBook\\ContactBook.csproj",
+        "projectUniqueName": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\ContactBook.csproj",
         "projectName": "ContactBook",
-        "projectPath": "D:\\ders\\Vizja\\DotNET\\ContactBook\\ContactBook.csproj",
-        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
-        "outputPath": "D:\\ders\\Vizja\\DotNET\\ContactBook\\obj\\",
+        "projectPath": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\ContactBook.csproj",
+        "packagesPath": "C:\\Users\\v-kakhundov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v-kakhundov\\Desktop\\Apps\\Code\\DotNET\\ContactBook\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\v-kakhundov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -34,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -51,7 +60,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -63,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

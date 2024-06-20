@@ -1,0 +1,2 @@
+MySQL database is used in this application. In DataBase.txt file, MySQL code is present.
+Execute this code and update MySQL connection details such as user name and password inside of the ContactDatabase.cs file.
